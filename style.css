@@ -205,6 +205,7 @@ body {
 
 /* ----------------- pricing section end -----------------   */
 
+/* -------------------last section start--------------- */
 .last_section {
     padding: 0px 210px 100px;
     width: 100%;
@@ -274,6 +275,9 @@ body {
     font-size: 20px;
 }
 
+/* -------------------last section end--------------- */
+
+/* --------------------footer start-------------------- */
 .footer {
     background-color: #fbfbfb;
     padding: 30px 0 5px 0;
@@ -294,6 +298,8 @@ body {
     gap: 70px;
 
 }
+
+/* ------------------------------------------------------- */
 
 .box-left {
     display: flex;
@@ -388,3 +394,6 @@ body {
     line-height: 4;
     font-weight: 500;
 }
+
+
+/* --------------------footer start-------------------- */
