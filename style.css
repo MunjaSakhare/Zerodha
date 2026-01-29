@@ -283,12 +283,13 @@ body {
 .container {
     margin: 0px 210px;
     display: flex;
+    flex-direction: column;
 }
 
 .main-footer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     gap: 70px;
 
@@ -334,4 +335,19 @@ body {
     color: #666;
     font-size: 14px;
     line-height: 2.5;
+}
+
+.container .small-print {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #9b9b9b;
+    margin-top: 40px;
+    font-size: 10.5px;
+}
+
+.container .small-print p {
+    line-height: 1.8;
+    margin-bottom: 10px;
 }
