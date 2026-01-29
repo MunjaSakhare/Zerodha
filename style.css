@@ -28,7 +28,7 @@ body {
 
 .header-right {
     display: flex;
-    gap: 40px;
+    gap: 42px;
 }
 
 .header-right a {
